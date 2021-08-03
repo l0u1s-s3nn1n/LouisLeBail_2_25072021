@@ -14,7 +14,7 @@ nav ul {
     list-style: none;
 }
 
-li{
+nav li{
     display: flex;
     border-top: solid 2px blue;
     margin : 0px 10px 0px 10px;
