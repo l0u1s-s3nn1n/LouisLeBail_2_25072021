@@ -1,0 +1,21 @@
+body {
+        font-family: "Raleway", sans-serif;
+        margin: 0px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 15px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    border-top: solid 2px blue;
+    margin : 0px 10px 0px 10px;
+}
