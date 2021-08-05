@@ -1,11 +1,37 @@
+/* Police */
+@font-face {
+    font-family: "Raleway";
+    src: url(fonts/Raleway/static/Raleway-Regular.ttf);
+}
+/* Icons */
+.icon_map { 
+width: 40%;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon_info { 
+width: 60px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #0065ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+   
+/* Body */
 body {
-        font-family: "Raleway", sans-serif;
-        color: black;
-        margin-top: 0px;
-        margin-left: 10px;   
-        margin-right: 10px;
-        padding-left: 100px;
-        padding-right: 100px;
+    font-family: "Raleway", sans-serif;
+    color: black;
+    margin-top: 0px;
+    margin-left: 10px;   
+    margin-right: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 ul {
     list-style-type: none;
@@ -47,14 +73,30 @@ nav li {
 }
 
 /* Search */
-.search_box { 
-    color: black;
+.search form {
+    border: #F2F2F2;
+    width: 40%; 
+    display: flex;
+}
+.search_box {
+    width: 100%;
     font-weight: bold;
     padding: 15px;
     border: 1px solid #F2F2F2 ;
 }
-.placeholder {
+::placeholder {
     color: black;
+}
+.search_button {
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: #0065ff;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Filters */
 .filters p{
