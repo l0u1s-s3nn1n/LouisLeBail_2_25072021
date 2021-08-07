@@ -46,7 +46,7 @@
         <span class="icon_map">
             <i class="fas fa-map-marker-alt"></i>
         </span>
-        <input type="search" class="search_box" placeholder="Marseille, France">
+        <input type="search" class="search_hol" placeholder="Marseille, France">
         <button type="submit" class="search_button">Rechercher</button>
      </form>
 </div>
@@ -74,15 +74,16 @@
 
         <!--Accomodation-->
 
-    <div class="accomodation_and_most_popular">
-        <!--A FAIRE : renommer le div "accomodation etle supprimer de section" -->
-        <section id="accomodation">
+    <!--PAUSE: <div class="accomodation_and_most_popular">-->
+        <!--test : suppr le div "accomodation pour css flexbox plus facile" -->
+        <div class="accomodation">
 
-            <h2 >Hébergements à Marseille</h2>
+            <h2 class="accomodation_h2">Hébergements à Marseille</h2>
+
             <ul class='Accomodation_bloc'>
 
                 
-                    <li class="Accomodation_bloc1">
+                    <li class="Accomodation_card">
                         <a href="#" class="card">
                         <img class="accomodation_images" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo d'une chambre">
                         <h3>Auberge la Cannebière</h3>
@@ -99,7 +100,7 @@
                 
                 
                 
-                    <li class="Accomodation_bloc2" >
+                    <li class="Accomodation_card" >
                         <a href="#" class="card">
                         <img class="accomodation_images" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photo d'une chambre">
                         <h3>Hôtel du port</h3>
@@ -116,7 +117,7 @@
                 
 
                 
-                <li class="Accomodation_bloc3"> 
+                <li class="Accomodation_card"> 
                     <a href="#" class="card">
                     <img class="accomodation_images" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photo d'une chambre">
                     <h3>Hôtel Les Mouettes</h3>
@@ -133,7 +134,7 @@
            
 
                 
-                <li class="Accomodation_bloc4">
+                <li class="Accomodation_card">
                     <a href="#" class="card">
                     <img class="accomodation_images" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photo d'une chambre">
                     <h3>Hôtel de la mer</h3>
@@ -150,7 +151,7 @@
             
 
                 
-                <li class="Accomodation_bloc5">
+                <li class="Accomodation_card">
                     <a href="#" class="card">
                     <img class="accomodation_images" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photo d'une chambre">
                     <h3>Hôtel Le Panier</h3>
@@ -167,7 +168,7 @@
             
 
                 
-                <li class="Accomodation_bloc6">
+                <li class="Accomodation_card">
                     <a href="#" class="card">
                     <img class="accomodation_images" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Room photo">
                     <h3>Hôtel chez Aminar</h3>
@@ -184,18 +185,18 @@
       
             </ul>
             <h4><a href="#">Afficher plus</a></h4>
-        </section>
-        <aside> <p>looooooooooooooooooll</p> loooooooooool</aside>
+        </div>
+
         <!--Most_popular-->
 
-    <section id='most_popular'>
+    <aside class='most_popular'>
         <h2 class="most_popular_h2">Les plus populaires
             <span class="fas fa-chart-line"></span></h2>
             
             <ul class="most_popular_bloc">
 
                 
-                    <li class="most_popular_bloc1">
+                    <li class="most_popular_card">
                         <a href="#" class="card">
                         <img class="most_popular_images" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Room photo">
                         <h3>Hôtel Le soleil du matin</h3>
@@ -212,10 +213,11 @@
                 
 
                 
-                    <li class="most_popular_bloc2">
+                    <li class="most_popular_card">
+
                         <a href="#" class="card">
-                        <img class="most_popular_images" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Room photo">
-                        <h3>Au coeur de l'eau Chambre d'hôtes</h3>
+                        <div><img class="most_popular_images" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Room photo"></div>
+                        <div><h3>Au coeur de l'eau Chambre d'hôtes</h3>
                         <p>Nuit à partir de <strong>71€</strong></p>
                         <div class="icon_star">
                             <i class="fas fa-star"></i>
@@ -224,11 +226,12 @@
                             <i class="fas fa-star"></i>
                             <i class="greyStar fas fa-star"></i>
                         </div>
+                        </div>
                         </a>
                     </li>
                 
 
-                    <li class="most_popular_bloc3">
+                    <li class="most_popular_card">
                         <a href="#" class="card">
                         <img class="most_popular_images" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Room photo">
                         <h3>Hôtel Tout bleu et Blanc</h3>
@@ -244,9 +247,9 @@
                     </li>
                 
             </ul>
-        </section>
-    </div>
-
+        </aside>
+    <!--PAUSE : </div>-->
+</main>
         <!--Activities-->
 
     <section id="activities">
@@ -308,7 +311,7 @@
 
             </div>
     </section>
-</main> 
+ 
 
 
 <!--Footer-->
