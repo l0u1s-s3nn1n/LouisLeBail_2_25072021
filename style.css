@@ -1,6 +1,8 @@
    
 /* Body */
 body {
+    width: 100%;
+    max-width: 100%;
     font-family: 'Raleway', sans-serif;
     color: black;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -406,4 +408,50 @@ footer li{
     color: #0065fc;
   }
 
-  
+@media (max-width: 1024px)
+{
+    body {
+        max-width: 100%;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    header img { 
+        padding-right: 10px;
+    }
+    
+    .search h1 {
+        font-size:medium;
+    }
+    .search p {
+        font-size:medium;
+    }
+    .filters {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .Accomodation_bloc {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .accomodation_card_line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;   
+        margin: 0px;
+        }
+}
+    
