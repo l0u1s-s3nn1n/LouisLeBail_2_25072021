@@ -24,6 +24,7 @@ a {
 
 /* Header*/
 header {
+    width: 100%;
     background-color: white;
     padding: 25px 0px 0px 10px;
 
@@ -35,6 +36,7 @@ header {
 
 /* Logo_navigation */
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -99,9 +101,8 @@ nav {
 }
 ::placeholder {
     color: black;
-    font-weight: bold;
     font-size: large;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 25px;
 }
 .search_button {
@@ -121,6 +122,7 @@ nav {
 
 /* Filters */
 .filters {
+    width: 100%;
     font-weight:bold;
     font-size: large;
     display: flex;
@@ -181,6 +183,7 @@ nav {
 
 /* Main_content */
 main {
+    width: 100%;
     border-radius: 15px;
     display: flex;
     background-color:white;
@@ -194,6 +197,7 @@ main {
 }
 /* Accomodation */
 .accomodation {
+    width: 70%;
     background-color: #F2F2F2;
     border-radius: 15px;
     margin: 15px;
@@ -207,10 +211,12 @@ main {
     margin: 0px;
 }
 .Accomodation_bloc {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .accomodation_card_line {
+    width: 100%;
     display: flex;
 }
 
@@ -221,24 +227,33 @@ main {
     margin: 0px;
 }
 .Accomodation_card {
+    width: 100%;
+    border: white 4px solid;   
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     margin: 20px;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .accomodation_images {
-   border: white 4px solid;
-    width: 250px;  
+    width: 100%;   
     height: 120px;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 .accomodation_card_text{
     margin: 5px 0px 5px 15px;
 }
 /* Most_popular */
 .most_popular {
+    width: 30%;
     background-color:#F2F2F2;
     border-radius: 15px;
     display: flex;
@@ -248,6 +263,7 @@ main {
 
 }
 .most_popular_h2 {
+    width: 100%;
     font-weight: bold;
     font-size: x-large;
     display: flex;
@@ -256,6 +272,7 @@ main {
     padding: 0px;
 }
 .most_popular_h3 {
+    width: 100%;
     display: flex;
     font-weight: bold;
     font-size: medium;
@@ -276,7 +293,7 @@ main {
     flex-wrap: nowrap;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     background: white;
-    border-radius: 5%;
+    border-radius: 20px;
     margin: 15px;
     padding: 5px;
 }
@@ -298,6 +315,8 @@ main {
 
 /* Activities */
 .activities {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -305,84 +324,126 @@ main {
     font-weight: bold;
     font-size: x-large;
 }
-.activities_bloc{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;   
-    margin: 0px;
-    padding: 0px;
+.activities_bloc{   
+    width: 100%;
+    display: flex;  
 }
 .activities_bloc1{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
 }
-.activities_bloc2{ 
+.activities_bloc2{  
+    width: 100%;
+    height: 100%;
     display:flex;
-    margin: 0px;
-    padding: 0px;
 }
 .activities_h3{
     font-weight: bold;
     font-size: medium;
-    padding: 10px;
-}
-.activities_card{  
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5%;
-    margin: 15px;
     padding: 0px;
+    margin: 10px;
 }
 .activities_alone{
+    margin: 15px;
+    padding: 5px;
+    width: 100%;
     height: 100%;
     display: flex;
-    margin: 0px;
-    padding: 0px;
+    flex-direction: column;
 }
 .activities_double {
+    margin: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+.activities_card1{
+    width: 100%; 
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.activities_card2{  
+    width: 100%; 
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+.activities_card3{
+    width: 100%; 
+    height: 100%;   
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    margin-top:  25px;
+}
+.activities_card4{
+    width: 100%;  
+    height: 100%; 
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.activities_card5{
+    width: 100%; 
+    height: 100%;  
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+.activities_card6{
+    margin-top:  25px;
+    width: 100%;  
+    height: 100%; 
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
 }
 .activities_images_alone {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 410px;
     object-fit: cover;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+
 }
 .activities_images_double1 {
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 .activities_images_double2 {
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 140px;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 .activities_images_double3 {
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 140px;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 .activities_images_double4 {
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 /* Footer */
 .footer {
+    width: 100%;
     background: #F2F2F2;
     display: flex;
     justify-content: flex-start;
@@ -391,14 +452,12 @@ main {
 .footer h4{
     font-weight: bold;
     font-size: larger;
-    padding: 0px;
 }
 .footer_box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 200px 75px 0px;
 }
 footer li{
     margin: 0px 0px 5px 0px;
