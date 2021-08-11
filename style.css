@@ -2,12 +2,9 @@
 /* Body */
 body {
     width: 100%;
-    max-width: 100%;
     font-family: 'Raleway', sans-serif;
-    color: black;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    margin: 5px;
-    padding: 15px;
+    margin: 0px 0px 1px 1px;
+    padding: 15px 0px 0px 0px;
 }
 h1, h2 {
     font-weight:bold;
@@ -124,26 +121,26 @@ nav {
 .filters {
     width: 100%;
     font-weight:bold;
-    font-size: large;
+    font-size:medium;
     display: flex;
     align-items: baseline;
 }
 .filters h4 {
     font-weight:bold;
-    font-size: large;
+    font-size: medium;
     padding: 20px;
     margin: 20px;
 }
 .filters_list {
     font-weight:bold;
-    font-size: large;
+    font-size: medium;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 .filters_list i {
     font-weight:bold;
-    font-size: large;
+    font-size: medium;
     padding: 15px;
     color: #0065FC;
     background-color: #DEEBFF;
@@ -155,7 +152,7 @@ nav {
     display: flex;
     align-items: center;
     font-weight:bold;
-    font-size: large;
+    font-size: medium;
     border: solid 2px #e2e2e2;
     border-radius: 25px;
     padding: 0px 15px 0px 15px;
@@ -294,7 +291,7 @@ main {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     background: white;
     border-radius: 20px;
-    margin: 15px;
+    margin: 15px 0px 15px 0px;;
     padding: 5px;
 }
 .card_text {
@@ -342,7 +339,7 @@ main {
     font-weight: bold;
     font-size: medium;
     padding: 0px;
-    margin: 10px;
+    margin: 15px;
 }
 .activities_alone{
     margin: 15px;
@@ -365,21 +362,21 @@ main {
     height: 100%;
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5%;
+    border-radius: 30px;
 }
 .activities_card2{  
     width: 100%; 
     height: 100%;
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 10%;
+    border-radius: 30px;
 }
 .activities_card3{
     width: 100%; 
     height: 100%;   
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 10%;
+    border-radius: 30px;
     margin-top:  25px;
 }
 .activities_card4{
@@ -387,14 +384,14 @@ main {
     height: 100%; 
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5%;
+    border-radius: 30px;
 }
 .activities_card5{
     width: 100%; 
     height: 100%;  
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 10%;
+    border-radius: 30px;
 }
 .activities_card6{
     margin-top:  25px;
@@ -402,7 +399,7 @@ main {
     height: 100%; 
     background-color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 10%;
+    border-radius: 30px;
 }
 .activities_images_alone {
     width: 100%;
@@ -416,29 +413,29 @@ main {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .activities_images_double2 {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .activities_images_double3 {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .activities_images_double4 {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 /* Footer */
@@ -454,14 +451,17 @@ main {
     font-size: larger;
 }
 .footer_box {
+    width: 100%;   
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
 }
 footer li{
     margin: 0px 0px 5px 0px;
-    padding: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
 }
 .footer a:hover {
     color: #0065fc;
