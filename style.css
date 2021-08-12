@@ -1,4 +1,3 @@
-   
 /* Body */
 body {
     width: 100%;
@@ -467,7 +466,7 @@ footer li{
     color: #0065fc;
   }
 
-@media all and (max-device-width: 1023px)
+@media screen and (max-width: 1023px)
 {
 /* css 
     header 
@@ -490,7 +489,7 @@ footer li{
     */
 }
 
-@media all and (max-device-width: 768px)
+@media screen and (max-width: 768px)
 {
     body {
         background-color: red;
@@ -516,7 +515,7 @@ footer li{
     */
     
 }
-@media all and (max-device-width: 375px)
+@media screen and (max-width: 375px)
 {
     header {
         background-color: white;
@@ -684,9 +683,6 @@ footer li{
         margin: 0px;
         padding: 0px;
     }
-    .accomodation_card_text {
-        margin: 5px 0px 5px 15px;
-    }
     .most_popular{
         width: 100%;
         background-color: #F2F2F2;
@@ -714,7 +710,7 @@ footer li{
         border-radius: 20px;
     }
     .most_popular_h2{
-        font-size: large;
+        font-size:large;
     }
     .activities {
         display: flex;
@@ -725,7 +721,7 @@ footer li{
     }
     .activities_h2 {
         font-weight: bold;
-        font-size: x-large;
+        font-size: large;
     }
     .activities_bloc{   
         width: 100%;
@@ -736,13 +732,120 @@ footer li{
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
     }
     .activities_bloc2{  
         width: 100%;
         height: 100%;
         display:flex;
-
+        flex-direction: column;
     }
+    .activities_h3{
+        font-weight: bold;
+        font-size: medium;
+        padding: 0px;
+        margin: 15px;
+    }
+    .activities_alone{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .activities_double {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .activities_card1{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+    .activities_card2{  
+        width: 100%; 
+        height: 100%;
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+}
+    .activities_card3{
+        width: 100%; 
+        height: 100%;   
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+    .activities_card4{
+        width: 100%;  
+        height: 100%; 
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+    }
+    .activities_card5{
+        width: 100%; 
+        height: 100%;  
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+    .activities_card6{
+        width: 100%;  
+        height: 100%; 
+        background-color: white;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+    .activities_images_alone {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    
+    }
+    .activities_images_double1 {
+        width: 100%;
+        height: 130px;;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .activities_images_double2 {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .activities_images_double3 {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .activities_images_double4 {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
     .footer{
         display: flex;
         flex-direction: column;
