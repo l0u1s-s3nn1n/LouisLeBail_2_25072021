@@ -1406,12 +1406,11 @@ footer li {
         margin: 0px;
     }
     .Accomodation_card {
-        width: 100px;
+        width: 330px; 
 
     }
     .accomodation_images {  
-        width: 100%;
-        height: 50%;
+        height: 120px;
     }
     .accomodation h4 {margin-left: 0px;}
     
@@ -1423,7 +1422,10 @@ footer li {
         padding-bottom: 20px;
     }
     .most_popular_card { 
-        width: 100px;
+        width: 330px; 
+        margin: 20px 0px 20px 0px;
+        padding-left: -10px;
+        
     }
 
     .most_popular_images {
@@ -1442,9 +1444,6 @@ footer li {
     }
 
      /*  - -ACTIVITIES SECTION- - **/
-    .activities {
-        width: 100%;
-    }
 
     .activities_h2 {
         font-size: large;
@@ -1460,37 +1459,42 @@ footer li {
     .activities_alone{
         margin: 0px;
         padding: 0px;
-        width: 100%
+        width: 340px;
     }
 
     .activities_double {
         margin: 0px;
         padding: 0px;
-        width: 100%
+        width: 340px;
     }
 
     .activities_card1{
-       width: 100px;
+        width: 340px;
     }
 
     .activities_card2{  
-        width: 100px;
+        width: 340px;
+        margin: 20px 0px 20px 10px;
     }
 
     .activities_card3{
-        width: 100px;
+        width: 340px; 
+        margin: 20px 0px 20px 10px;
     }
 
     .activities_card4{
-        width: 100px;
+        width: 340px;
+        margin: 20px 0px 20px 10px;
     }
 
     .activities_card5{
-        width: 100px;
+        width: 340px;
+        margin: 20px 0px 20px 10px;
     }
 
     .activities_card6{
-        width: 100px;
+        width: 340px; 
+        margin: 20px 0px 20px 10px;
     }
 
      /*  - -FOOTER SECTION- - **/
