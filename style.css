@@ -358,7 +358,7 @@ main {
 }
 
 .most_popular_images {
-    width: 100%;   
+    width: 130px;   
     height: 130px;
     object-fit: cover;
     border-top-left-radius: 15%;
